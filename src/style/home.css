@@ -1,0 +1,100 @@
+
+.home h1{
+    text-align: center;
+}
+.homeBody{
+    width: 90%;
+    display: flex;
+    margin-left: 60px;
+    padding-top: 30px;
+}
+.leftHome,
+.rightHome{
+    flex-basis: 50%;
+}
+.rightHome{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.rightHome a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.rightHome button{
+    margin-top: 10px;
+   width: 150px;
+}
+
+.randomPokeman,
+.searchPokeman{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px gray;
+    background-color: lightgray;
+}
+.randomPokeman h3,
+.searchPokeman h3{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.randomPokeman button{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.searchPokeman input{
+    width: 200px;
+    height: 15px;
+    margin-left: 43px;
+    border-radius: 10px;
+}
+.searchPokeman button{
+    margin-left: 120px;
+    margin-top: 25px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .homeBody{
+        margin-left: 20px;
+    }
+    .home h1{
+        font-size: 20px;
+    }
+    .rightHome{
+        margin-left: 30px;
+    }
+    .rightHome a{  
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .rightHome button{
+        margin-top: 10px;
+        width: 100px;
+    }
+    .randomPokeman,
+    .searchPokeman{
+        height: 130px;
+        width: 200px;
+    }
+    .randomPokeman h3,
+    .searchPokeman h3{
+        font-size: 15px;
+    }
+    .randomPokeman button{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .searchPokeman input{
+        width: 150px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .searchPokeman button{
+        margin-left: 70px;
+    }
+}

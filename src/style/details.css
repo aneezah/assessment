@@ -1,0 +1,33 @@
+.details{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px gray;
+    background-color: lightgray;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.details img{
+    margin-left: 40px;
+    height: 100px;
+    width: 100px;
+}
+.details h1,
+.details p{
+    text-align: center;
+}
+.details p{
+    font-size: 20px;
+}
+.details button{
+    margin-left: 25px;
+}
+
+@media only screen and (min-width: 600px){
+    .details{
+        width: 400px;
+    }
+    .details img{
+        margin-left: 150px;
+    }
+}
